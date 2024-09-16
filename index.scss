@@ -1,0 +1,316 @@
+
+* {
+    
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 0 auto
+        ;
+      
+   
+      
+}
+body {
+    background: #dbdbd9;
+    margin: 0  auto;
+    padding: 0 auto
+    ;
+    color: white;
+  
+    
+   
+}
+
+header {
+    background: url(./images/header-section.jpg) 100% fixed;
+    height: 50vh;
+    line-height: 2px;
+    div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        
+        
+       
+        h1{
+            font-size: 100px;
+           
+            text-transform: uppercase;
+        }
+        h3 {
+            font-size: 25px;
+            font-style: italic;
+        }
+        
+    }
+   
+}
+
+
+
+
+section {
+    height: 50vh;
+    margin: 0 auto;
+    width: 800px;
+    color: rgb(72, 72, 72);
+
+   .destinations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+        gap: 10px; /* Espacement entre les éléments de la grille */
+       
+    .image1{
+        background: url(/images/barcelone.jpg) center/cover;
+        height: 250px;
+        width: 250px; 
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+       
+    }
+    .image2{
+        background: url(/images/dubai.jpg) center/cover;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    .image3{
+        background: url(/images/Partez-a-la-decouverte-de-Manille-1.png) center/cover;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    .image4{
+        background: url(/images/france-eiffel-tower-paris.jpg) center/cover;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    .image5{
+        background: url(/images/tunis.jpg) center/cover;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    .image6{
+        background: url(/images/londres.jpg) center/cover;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    .image7{
+        background: url(/images/londres.jpg) center/cover;
+        height: 270px;
+        width: 250px;
+        position: relative;
+        h3 {
+            background: #dbdbd9;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            top: 30px;
+            
+        }
+        p {
+            background: #fda501;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            font-weight: 700;
+            color: whitesmoke;
+            letter-spacing: 2px;
+
+        }
+    }
+    
+
+   }
+   
+
+
+
+  
+     
+    }
+
+   
+
